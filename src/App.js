@@ -1,5 +1,3 @@
-import "./App.css";
-
 import { ThemeProvider } from "@mui/material";
 import CssBaseline from "@mui/material/CssBaseline";
 import { lightTheme } from "./styles/theme";

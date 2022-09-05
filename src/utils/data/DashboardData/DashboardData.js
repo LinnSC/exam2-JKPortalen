@@ -33,17 +33,20 @@ export const holdbackData = [
   {
     id: 1,
     title: "Saldo",
-    number: "100 000 kr",
+    number: "160 000 kr",
+    colour: "#6491b2",
   },
   {
     id: 2,
     title: "Holdback",
     number: "60 000 kr",
+    colour: "#C51162",
   },
   {
     id: 3,
     title: "Til utbetaling",
-    number: "40 000 kr",
+    number: "100 000 kr",
+    colour: "#009688",
   },
 ];
 
