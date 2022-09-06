@@ -6,7 +6,7 @@ export default function Assignments() {
   return (
     <Layout>
       <PagesContainer maxWidth="lg">
-        <Header variant="h1">Her kommer det en oppdraggside</Header>
+        <Header variant="h1">Her kommer det en oppdragsside</Header>
       </PagesContainer>
     </Layout>
   );
