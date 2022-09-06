@@ -1,10 +1,11 @@
-import { Card, Divider, Stack } from "@mui/material";
+import { Card, Divider, Stack, Box } from "@mui/material";
 import ContainedBtn from "../../Buttons/ContainedButton";
 import DashboardCardContent from "./CardContent";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import TimeSheetTable from "../../tables/DashboardTables/TimeSheetTable";
 import Header from "../../Typography/Header";
 import { useNavigate } from "react-router-dom";
+import TextBtn from "../../Buttons/TextButton";
 
 export default function TimeSheetCard() {
   const navigate = useNavigate();
@@ -26,15 +27,11 @@ export default function TimeSheetCard() {
           <Divider />
           <TimeSheetTable />
 
-          <ContainedBtn
-            size="small"
-            color="secondary"
-            fullWidth={true}
-            onClick={navTo}
-          >
-            Se alle timelister
-            <ArrowForwardIcon sx={{ ml: 2 }} />
-          </ContainedBtn>
+          <Box sx={{ textAlign: "end" }}>
+            <TextBtn size="medium" color="secondary">
+              Se alle timelister
+            </TextBtn>
+          </Box>
         </Stack>
       </DashboardCardContent>
     </Card>

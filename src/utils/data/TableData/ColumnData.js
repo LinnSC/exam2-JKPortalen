@@ -23,7 +23,7 @@ export const columns = [
   {
     field: "edit",
     headerName: "",
-    width: 70,
+    width: 90,
     disableClickEventBubbling: true,
     renderCell: (params) => {
       let stringedID = JSON.stringify(params.id);
@@ -38,9 +38,8 @@ export const columns = [
   },
   {
     field: "id",
-    headerName: "Medarbeider ID",
-    type: "number",
-    width: 130,
+    headerName: "ID",
+    width: 120,
     editable: false,
     disableClickEventBubbling: true,
     renderCell: (params) => {
@@ -58,7 +57,7 @@ export const columns = [
   {
     field: "name",
     headerName: "Medarbeider",
-    width: 250,
+    width: 270,
     editable: false,
     disableClickEventBubbling: true,
     valueGetter: getFullName,
@@ -78,7 +77,7 @@ export const columns = [
   {
     field: "email",
     headerName: "Epost",
-    width: 250,
+    width: 300,
     editable: false,
     disableClickEventBubbling: true,
     valueGetter: getEmail,
@@ -97,7 +96,7 @@ export const columns = [
   {
     field: "status",
     headerName: "Status",
-    width: 160,
+    width: 200,
     editable: false,
     disableClickEventBubbling: true,
     valueGetter: getStatus,
@@ -117,7 +116,7 @@ export const columns = [
     field: "vacancyRate",
     headerName: "Stillingsprosent",
     type: "number",
-    width: 160,
+    width: 200,
     editable: false,
     disableClickEventBubbling: true,
     valueGetter: getVacancyRate,

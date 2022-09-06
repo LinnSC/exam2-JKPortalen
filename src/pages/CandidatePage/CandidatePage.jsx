@@ -20,7 +20,7 @@ export default function CandidatePage() {
 
   return (
     <Layout>
-      <PagesContainer maxWidth="lg">
+      <PagesContainer maxWidth="xl">
         <MyFab
           sx={{ mt: "110px", mr: { xs: 0, md: 2 } }}
           toolTitle="Registrer medarbeider"
